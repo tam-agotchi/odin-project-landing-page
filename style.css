@@ -4,12 +4,58 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
-.header, .hero, .footer {
+.header, .hero {
     background: #1F2937;
     display: flex;
+}
+
+.header {
+    width: 100vw;
+    display: flex;
     justify-content: space-between;
-    padding-left: 175px;
-    padding-right: 175px;
+}
+
+.hbox {
+    width: 100vw;
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+}
+
+.item-gallery {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.item {
+    display: block;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.inner-center {
+    display: flex;
+    justify-content: center;
+}
+
+.caption {
+    padding-top: 10px;
+    width: 150px;
+}
+
+.footer {
+    background: #1F2937;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
 }
 
 .hero {
@@ -46,23 +92,18 @@ body {
     font-style: italic;
 }
 
-
-.footer {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
 .square {
-  height: 100px;
-  width: 100px;
-  background-color: #555;
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  border: 5px solid #3882F6;
+  border-radius: 12px;
 }
 
 .left, .right {
     display: flex;
     align-items: center;
-    width: 50%;
+    gap: 16px;
 }
 
 #hero-left {
