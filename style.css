@@ -27,23 +27,36 @@ body {
 #hero {
     font-size: 48px;
     color: #F9FAF8;
+    margin-bottom: 0px;
+}
+
+#hero-caption {
+    margin-top: 5px;
 }
 
 .hbox {
-    width: 100vw;
+    width: 150vw;
     display: flex;
-    gap: 5em;
+    gap: 10vw;
     justify-content: center;
 }
 
 .left, .right {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 30px;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 
 #hero-left {
     display: block;
+    padding-right: 0px;
+    flex: 1 1 0;
+}
+
+#hero-right {
+    padding-left: 0px;
 }
 
 button {
@@ -53,8 +66,8 @@ button {
     color: #F9FAF8;
     border: none;
     border-radius: 8px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -131,8 +144,8 @@ a, a:link, a:visited, a:hover, a:active{
 /* QUOTE */
 .quote{
     display: block;
-    padding-left: 125px;
-    padding-right: 125px;
+    padding-left: 225px;
+    padding-right: 225px;
     padding-top: 75px;
     padding-bottom: 75px;
     margin: 0px;
@@ -166,6 +179,50 @@ h1 {
     font-weight: 900px;
 }
 
+/* SIGNUP */
+.signup {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    padding: 75px;
+    padding-bottom: 150px;
+}
+
+.callout {
+    height: 125px;
+    width: 1000px;
+    background-color: #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+#signup-left {
+    display: flex;
+    align-items: center;
+}
+
+#signup-h2 {
+    margin-top: 18px;
+    margin-bottom: 0px;
+}
+
+#signup-p {
+    margin-top: 0px;
+}
+
+
+#signup-button{
+    border: 3px solid white;
+}
+
+#signup-right {
+    display: flex;
+    align-items: center;
+}
+
 /* FOOTER */
 .footer {
     background: #1F2937;
@@ -176,5 +233,6 @@ h1 {
     display: flex;
     text-align: center;
     justify-content: center;
+    padding: 15px;
 
 }
